@@ -12,6 +12,8 @@
 * Download the DarkHelp Library from here: <link>https://www.ccoderun.ca/download/</link> (Tested on darkmark-1.0.0-2968-Linux.deb) and run <code>sudo dpkg -i darkhelp-*.deb</code>
 ### Compile:
 Run <code>cmake .</code> and <code>make</code> in the repo root directory.
+## Docker Image
+Download and extract <code>gun-detector.tar.gz</code> file 2.8 GB: [gun-detector.tar.gz](https://drive.google.com/file/d/1P2PDrEs43a1ZyTjSkbArMsLGsCVu1OWH/view?usp=sharing)
 ## Demo
 Download Pre-trained model: <code>./download_weights.sh</code>
 ### Configuration
