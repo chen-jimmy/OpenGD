@@ -135,9 +135,11 @@ int main(int argc, char* argv[]){
 	darkhelp.annotation_colours = {{0, 255, 255}};
 	darkhelp.annotation_include_duration= false;
 	thread caches [num_columns][num_rows];
-	namedWindow("Output", WINDOW_NORMAL);
-	resizeWindow("Output", display_width, display_height);
-	setWindowProperty("Output", WND_PROP_FULLSCREEN, WINDOW_FULLSCREEN);
+	if(local_flag){
+		namedWindow("Output", WINDOW_NORMAL);
+		resizeWindow("Output", display_width, display_height);
+		setWindowProperty("Output", WND_PROP_FULLSCREEN, WINDOW_FULLSCREEN);
+	}
 	count = 0;
 	for(int i=0; i<num_columns; i++){
 		for(int j=0; j<num_rows; j++){
