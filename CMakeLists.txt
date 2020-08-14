@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.8)
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -pthread")
+project( live_demo )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} /usr/local/include )
+add_executable( live_demo MJPEGWriter.cpp live_demo.cpp )
+target_link_libraries( live_demo -Wl,--copy-dt-needed-entries ${OpenCV_LIBS} /usr/lib/libdarkhelp.so /usr/local/lib/libdarknet.so config++ /usr/lib/x86_64-linux-gnu/libspeechd.so)

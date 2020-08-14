@@ -1,0 +1,1 @@
+wget https://github.com/chen-jimmy/gun-detection/releases/download/1.0/darknet-yolov4_best.weights
