@@ -1,4 +1,5 @@
 # gun-detection
+Project Page: https://devpost.com/software/opengd
 ## Local Installation from Source
 ### Install Dependencies:
 * <code>sudo apt-get install build-essential git cmake libopencv-dev libconfig++-dev libspeechd-dev</code>
