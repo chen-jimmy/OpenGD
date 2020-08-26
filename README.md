@@ -1,4 +1,4 @@
-# gun-detection
+# OpenGD
 Project Page: https://devpost.com/software/opengd
 ## Local Installation from Source
 ### Install Dependencies:
